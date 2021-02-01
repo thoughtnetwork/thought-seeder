@@ -430,7 +430,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"sv1.thought.live", ""};
+static const string mainnet_seeds[] = {"sv1.thought.live", "95.217.102.2", "95.217.102.3", "95.217.102.4", "95.217.102.5", "95.217.102.6", "95.217.102.7", ""};
 static const string testnet_seeds[] = {"sv1.thought.live",
                                        ""};
 static const string *seeds = mainnet_seeds;
